@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+
+}
+#header{
+    background-image: url(https://imgs.search.brave.com/m_McKIm6RfhyFhVZwNuRqfMECmnD6llZsXHZa9cPuQI/rs:fit:1200:500:1/g:ce/aHR0cHM6Ly93b25k/ZXJmdWxlbmdpbmVl/cmluZy5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMTQvMDUv/dHdpdHRlci1oZWFk/ZXItcGhvdG8tMTMu/anBn);
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+#hero{
+    background-image: url(https://imgs.search.brave.com/PIweYwkIgq8ncq1pinjlH9RdvvSEGb44QHMVnkZrrmw/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9taXIt/czMtY2RuLWNmLmJl/aGFuY2UubmV0L3By/b2plY3RfbW9kdWxl/cy8xNDAwL2YxM2Jj/ZDg4NzQ0MzMzLjVk/ZTM4Y2QzMWNmMWQu/anBn);
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+#grid{
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+}
+#content{
+    padding: 5rem 0;
+    background-image: url(https://search.brave.com/images?q=grid&source=web#10);
+    background-color: pink; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+#sidebar{
+    padding: 5rem 0;
+    background-image: url(https://imgs.search.brave.com/AbSNlFG9t-EiKukvldXenXWR_upZLNOyZUgeObHxQnU/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9mbHV0/dHIuY2Evd3AtY29u/dGVudC91cGxvYWRz/LzIwMTkvMDcvU2lk/ZWJhcl9jb3Zlci5q/cGc);
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+#footer{
+    background-image: url(https://imgs.search.brave.com/gvz5GKKDsS2t4N0gCB09OoyVGzwAg0NgCbmtLrhY9Ng/rs:fit:1200:766:1/g:ce/aHR0cHM6Ly9kM2gy/azd1ZzNvNXBiMy5j/bG91ZGZyb250Lm5l/dC9pbWFnZS8yMDIw/LTAxLTE3LzllNjgx/ZTYwLTM4ZDMtMTFl/YS1hM2ZiLWNmYzU1/YzE5NzNkMC5wbmc);
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #grid{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media 
+  (max-device-width: 218px)
+  and (max-device-height: 281px) { 
+    #grid{
+        grid-template-columns: 1fr;
+    }
+}
